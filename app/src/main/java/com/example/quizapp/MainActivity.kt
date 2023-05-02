@@ -1,5 +1,6 @@
 package com.example.quizapp
 
+import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.view.View
@@ -34,7 +35,9 @@ class MainActivity : AppCompatActivity() {
             if(field.text.toString().isEmpty()){
                 Toast.makeText(this, "please enter your name", Toast.LENGTH_SHORT).show()
             }else{
-                
+                val intent = Intent(this, QuizQuestionsActivity::class.java)
+                startActivity(intent)
+                finish()
             }
         }
 
