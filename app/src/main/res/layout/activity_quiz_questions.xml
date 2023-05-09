@@ -38,6 +38,7 @@
             android:layout_marginTop="16dp"
             android:gravity="center_vertical"
             android:orientation="horizontal">
+
             <ProgressBar
                 android:id="@+id/progressBar"
                 style="?android:attr/progressBarStyleHorizontal"
@@ -118,6 +119,7 @@
             android:background="@color/btnStartColor"
             android:textSize="18sp"
             android:textStyle="bold"
+            android:text="SUBMIT"
             />
     </LinearLayout>
 
